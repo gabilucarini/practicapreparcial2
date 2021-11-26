@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(../img/fondo.jpg);
+}
+
+.container{
+    background-color: rgba(255, 251, 251, 0.884);
+    height: 25vh;
+    width:  50vh;
+    box-shadow: 15px 13px 36px -6px #303030;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container-form{
+    text-align: left;
+}
+
+.container-ingreso-cantidad{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+.container-seleccion-tipo{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+.container-button{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.texto{
+    text-align: center;
+    color: red;
+}

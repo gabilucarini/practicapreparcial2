@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="index.js" defer></script>
+    <title>Calculadora Cambio</title>
+</head>
+<body>
+    <div class="container-general">
+        <form action="" class="container">
+            <div class="container-form">
+                <div class="container-ingreso-cantidad">
+                    <label for="">Nombre nueva moneda:</label>
+                    <input type="text" name="nueva" id="nueva">
+                </div>
+                <div class="container-seleccion-tipo">
+                    <label for="">Valor nueva moneda:</label>
+                    <input type="number" name="relacion" id="relacion">
+                </div>
+                <div class="container-button">
+                    <button  type="button" onclick="nuevaMoneda()">Efectuar Operacion</button>
+                </div>
+                
+                <p class="texto" id="texto2"></p>
+            </div>
+        </form>
+            
+    
+        <form action="" class="container">
+            <div class="container-form">
+                <div class="container-ingreso-cantidad">
+                    <label for="">Ingrese cantidad de pesos:</label>
+                    <input type="number" name="cantidadpesos" id="cantidadpesos">
+                </div>
+                <div class="container-seleccion-tipo">
+                    <label for="">Seleccione tipo de billete:</label>
+                    <select name="tipo" id="tipo">
+                        <option value="">- Seleccione divisa -</option>
+                        <option value="Dolares">Dolar</option>
+                        <option value="Euros">Euro</option>
+                    </select>
+                </div>
+                <div class="container-button">
+                    <button type="button" onclick="calculoCambio()">Efectuar Operacion</button>
+                </div>
+                
+                <p class="texto" id="texto"></p>
+            </div>
+        </form>
+    </div>
+    
+        
+
+</body>
+</html>
